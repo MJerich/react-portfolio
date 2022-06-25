@@ -14,6 +14,12 @@ code {
     monospace;
 }
 
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 header {
   background-image: url(./header.jpg);
   background-size: cover;
@@ -33,6 +39,36 @@ span {
   border-bottom: 2px solid #fcfcfc;
 }
 
+a span {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+  border-bottom: 0;
+}
+
+form {
+  width: 40%;
+}
+
+#headshot {
+  height: 250px;
+  width: auto;
+}
+
+#about-me, #contact-section {
+  text-align: left;
+  margin: auto 15%;
+}
+
+textarea {
+  border: 3px solid #ccc;
+  height: 120px;
+  padding: 5px;
+  width: 600px;
+}
+
 #nav {
   display: flex;
   gap: 15px;
@@ -40,15 +76,20 @@ span {
   margin-right: 10px;
 }
 
+.fa {
+  font-size: 50px;
+  text-decoration: none;
+  color: #8d8d8d;
+  opacity: 0.5;
+  padding: 5px 10px 0 10px;
+}
+
 footer {
-  display: flex;
-  background-color: #24283b;
-  font-size: 17px;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 5px 0;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  bottom: 0;
+  height: 100px;
   width: 100%;
+  font-size: 17px;
+  background-color: #24283b;
 }

@@ -4,7 +4,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="App-header" class='top'>
+    <header>
       <h1>Matthew Jerich</h1>
       <ul id='nav'>
         <li>
