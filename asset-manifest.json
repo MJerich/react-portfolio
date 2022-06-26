@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.76daf2a1.css",
+    "main.js": "/react-portfolio/static/js/main.b40d2e4c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/header.jpg": "/react-portfolio/static/media/header.e0b64f65bfce55e8b4d0.jpg",
+    "static/media/food-festival.png": "/react-portfolio/static/media/food-festival.d5163b1e081048d3a039.png",
+    "static/media/run-buddy.png": "/react-portfolio/static/media/run-buddy.0f69c7b84404e9b214b0.png",
+    "static/media/MatthewJerichResume.pdf": "/react-portfolio/static/media/MatthewJerichResume.fbf788d923306c1c1fb7.pdf",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.f09e886210fe8b648ac0.jpg",
+    "static/media/taskmaster-pro.png": "/react-portfolio/static/media/taskmaster-pro.9a686ae5468b2bc2c2cc.png",
+    "static/media/javascript-quiz.png": "/react-portfolio/static/media/javascript-quiz.43ca6e6ec53953134e53.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.76daf2a1.css.map": "/react-portfolio/static/css/main.76daf2a1.css.map",
+    "main.b40d2e4c.js.map": "/react-portfolio/static/js/main.b40d2e4c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76daf2a1.css",
+    "static/js/main.b40d2e4c.js"
+  ]
+}
