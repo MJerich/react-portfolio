@@ -1,23 +1,23 @@
 import React from 'react';
 
 
+function Header(props) {
 
-function Header() {
   return (
     <header>
       <h1>Matthew Jerich</h1>
       <ul id='nav'>
         <li>
-          <span>About me</span>
+          <a href='#about-me'>About me</a>
         </li>
         <li>
-        <span>Portfolio</span>
+          <a href='#portfolio'>Portfolio</a>
         </li>
         <li>
-        <span>Contact</span>
+          <a href='#contact-section'>Contact</a>
         </li>
         <li>
-        <span>Resume</span>
+          <a href='#resume'>Resume</a>
         </li>
       </ul>
     </header>

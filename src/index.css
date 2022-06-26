@@ -39,6 +39,21 @@ span {
   border-bottom: 2px solid #fcfcfc;
 }
 
+a {
+  text-decoration: none;
+  color: #fcfcfc;
+  text-shadow: 3px 3px #1f2335;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fcfcfc;
+  text-shadow: 3px 3px #1f2335;
+  font-weight: 700;
+}
+
 a span {
   height: 1px;
   width: 1px;
@@ -57,7 +72,15 @@ form {
   width: auto;
 }
 
-#about-me, #contact-section {
+#download {
+  font-size: 20px;
+  border-bottom: #fcfcfc 2px solid;
+}
+
+#about-me,
+#contact-section,
+#portfolio,
+#resume {
   text-align: left;
   margin: auto 15%;
 }
@@ -74,6 +97,47 @@ textarea {
   gap: 15px;
   list-style-type: none;
   margin-right: 10px;
+}
+
+#nav li a {
+  font-size: 20px;
+}
+
+.project {
+  display: flex;
+  width: 500px;
+  height: 400px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border: black 5px solid;
+  background-color: #1f2335;
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: top;
+  gap: 7px;
+}
+
+#food-festival {
+  background-image: url(./assets/project-images/food-festival.png);
+}
+
+#javascript-quiz {
+  background-image: url(./assets/project-images/javascript-quiz.png);
+}
+
+#run-buddy {
+  background-image: url(./assets/project-images/run-buddy.png);
+}
+
+#taskmaster-pro {
+  background-image: url(./assets/project-images/taskmaster-pro.png);
+}
+
+#taskmaster-pro:hover,
+#run-buddy:hover,
+#javascript-quiz:hover,
+#food-festival:hover {
+  background-blend-mode: difference;
 }
 
 .fa {
