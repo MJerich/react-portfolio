@@ -19,8 +19,8 @@ function Portfolio() {
             <a href='https://github.com/MJerich/code-quiz' className="fa fa-github"><span>github</span></a>
           </div>
           <div className="col-6 project" id='run-buddy'>
-          <a href='https://MJerich.com/run-buddy/'>Run Buddy</a>
-            <a href='https://github.com/MJerich/run-buddy' className="fa fa-github"><span>github</span></a>
+          <a href='https://delcon.herokuapp.com/'>The Delicious Connection</a>
+            <a href='https://github.com/ysaad01/the-delicious-connection' className="fa fa-github"><span>github</span></a>
           </div>
           <div className="col-6 project" id='taskmaster-pro'>
           <a href='https://mjerich.com/taskmaster-pro/'>Taskmaster Pro</a>

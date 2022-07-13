@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
 import Header from './components/Header/header-component';
 import Footer from './components/Footer/footer-component';
 import About from './components/About/about-component';
@@ -17,10 +18,14 @@ function App() {
   return (
     <div>
       <Header />
-      <About />
-      <Portfolio />
-      <Resume />
-      <ContactForm />
+      <Routes>
+        <Route path='/react-portfolio' element={<About />} />
+        <Route path='/' element={<About />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/contact' element={<ContactForm />} />
+      </Routes>
       <Footer />
     </div>
   );

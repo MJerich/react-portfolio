@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 function Header(props) {
 
@@ -8,16 +9,24 @@ function Header(props) {
       <h1>Matthew Jerich</h1>
       <ul id='nav'>
         <li>
-          <a href='#about-me'>About me</a>
+          <Nav.Link as={NavLink} to="/about">
+            About Me
+          </Nav.Link>
         </li>
         <li>
-          <a href='#portfolio'>Portfolio</a>
+          <Nav.Link as={NavLink} to="/portfolio">
+            Portfolio
+          </Nav.Link>
         </li>
         <li>
-          <a href='#contact-section'>Contact</a>
+          <Nav.Link as={NavLink} to="/resume">
+            Resume
+          </Nav.Link>
         </li>
         <li>
-          <a href='#resume'>Resume</a>
+          <Nav.Link as={NavLink} to="/contact">
+            Contact Form
+          </Nav.Link>
         </li>
       </ul>
     </header>
